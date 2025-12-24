@@ -38,3 +38,15 @@ for i in range(x-2,-1,-1):
     for j in range(i+1):
         print("*  ",end=" ")
     print("\n")
+F.odd sequence
+x=int(input())
+for i in range(x+4):
+    for j in range(x-i+4):
+        print(" ",end=" ")
+    for j in range(i+1):
+        if(i%2!=0):
+            break
+        else:
+           print("*  ",end=" ")
+    print()
+
