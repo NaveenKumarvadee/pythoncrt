@@ -6,8 +6,8 @@ for i in range(x):
     print("\n")
 b.
 x=int(input())
-for i in range(x+1):
-    for j in range(i):
+for i in range(x):
+    for j in range(i+1):
         print("*",end=" ")
     print("\n")
 
