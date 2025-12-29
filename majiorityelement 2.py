@@ -8,10 +8,10 @@ def majiorityElement(nums):
         elif num==num2:
             c2+=1
         elif c1==0:
-            num1+num1
+            num1=num
             c1=1 
         elif c2==0:
-            num2=num2
+            num2=num
             c2=1
         else:
             c1-=1
